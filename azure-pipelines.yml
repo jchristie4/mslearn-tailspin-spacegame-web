@@ -16,7 +16,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET Core SDK 3.0.0'
+  displayName: 'Use .NET Core SDK 3.0.*'
   inputs:
     packageType: sdk
     version: 3.0.0
